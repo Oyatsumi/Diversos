@@ -36,7 +36,8 @@ public class Hausdorff {
 		for (int i=0; i<HEIGHT; i++){
 			for (int j=0; j<WIDTH; j++){
 				//if (i == 0 && j == 0) System.out.println(path + "~~" + raster.getSample(j, i, 0) + "~~" + raster.getSample(j+1, 0, 0));
-				imgB[i*WIDTH + j] = (raster.getSample(j, i, 0) == 0); //ESTRANHO ESSE TRUE, VERIFICAR DPS
+				//Change the == 0 below according to your imagetype
+				imgB[i*WIDTH + j] = (raster.getSample(j, i, 0) == 0); 
 			}
 		}
 		return imgB;
