@@ -1,5 +1,10 @@
+/*
+Prints all the sets of a combination.
+'conjunto' is your set as a vector of char, while p is the number of elements per combination
+*/
 
-public abstract class Victor {
+
+public abstract class CombinatorialSets {
 
 	
 	public static void main(String[] args){
